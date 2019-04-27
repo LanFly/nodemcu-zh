@@ -24,7 +24,7 @@
 # 安装
 
 ```shell
-npm install
+npm install gitbook-cli -g
 gitbook install
 ```
 

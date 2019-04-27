@@ -2,7 +2,7 @@
 
 match=$(grep "/@qiniu" -rl ./_book)
 
-index = 1
+index=1
 if [ ! "$match" = "" ]; then
   echo "This file are need to replace /@qiniu to http://lanfly.vicp.io"
   for file in ${match[@]}
