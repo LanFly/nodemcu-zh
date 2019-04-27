@@ -1,4 +1,4 @@
 #!/bin/sh
 
-rm -rf ./_book/@qiniu
+#rm -rf ./_book/@qiniu
 cp -rf ./_book/* /var/www/nodemcu/
