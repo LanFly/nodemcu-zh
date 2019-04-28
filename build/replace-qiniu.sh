@@ -1,6 +1,6 @@
 #!/bin/sh
 
-match=$(grep "/@qiniu" -rl ./_book)
+match=$(grep --exclude-dir=build --exclude-dir=_book --exclude="_qiniu.json" "/@qiniu" -rl ./)
 
 index=1
 if [ ! "$match" = "" ]; then
